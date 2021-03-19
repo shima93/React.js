@@ -67,7 +67,7 @@ class App extends Component {
         <h1 className="App-title">Welcome to React</h1>
         <p className={classes.join(" ")}>Hiiiii</p>
         <button className="button" onClick={() => this.togglePersonHandler()}>
-          switch name
+          switch name of
         </button>
         {person}
         {/* {this.state.show ? (
